@@ -1,0 +1,76 @@
+name: SektorCore
+version: 1.0.0
+main: pl.sektor.core.SektorCore
+api-version: '1.21'
+description: Modulowy plugin na serwer - partia 1
+commands:
+  sethome:
+    description: Ustaw dom
+    usage: /sethome [nazwa]
+  home:
+    description: Teleport do domu
+    usage: /home [nazwa]
+  delhome:
+    description: Usun dom
+    usage: /delhome <nazwa>
+  homes:
+    description: Lista domow
+  warp:
+    description: Teleport do warpa
+    usage: /warp <nazwa>
+  warps:
+    description: Lista warpow
+  setwarp:
+    description: Ustaw warp
+    usage: /setwarp <nazwa>
+  delwarp:
+    description: Usun warp
+    usage: /delwarp <nazwa>
+  spawn:
+    description: Teleport na spawn
+  setspawn:
+    description: Ustaw spawn
+  tpa:
+    description: Popros o teleport
+    usage: /tpa <gracz>
+  tpaccept:
+    description: Zaakceptuj tpa
+    aliases: [tpyes]
+  tpdeny:
+    description: Odrzuc tpa
+    aliases: [tpno]
+  rtp:
+    description: Losowy teleport
+    aliases: [randomtp, losuj]
+  msg:
+    description: Prywatna wiadomosc
+    usage: /msg <gracz> <tresc>
+    aliases: [w, m, tell, pw]
+  r:
+    description: Odpowiedz na wiadomosc
+    usage: /r <tresc>
+    aliases: [reply]
+  ac:
+    description: Czat administracji
+    usage: /ac <tresc>
+    aliases: [adminchat]
+  helpop:
+    description: Zglos problem administracji
+    usage: /helpop <tresc>
+  invsee:
+    description: Podglad ekwipunku gracza
+    usage: /invsee <gracz>
+  kod:
+    description: Wpisz kod
+    usage: /kod <kod>
+    aliases: [code]
+  kodadmin:
+    description: Zarzadzanie kodami
+    usage: /kodadmin <add|remove|list>
+  afk:
+    description: Teleport na strefe AFK (ponownie = powrot)
+  setafk:
+    description: Ustaw strefe AFK
+  afkadmin:
+    description: Wiadomosci strefy AFK
+    usage: /afkadmin <add|remove|list|clear>

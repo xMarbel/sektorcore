@@ -1,0 +1,13 @@
+# Opoznienie teleportacji w sekundach (0 = brak). Ruch anuluje teleport.
+teleport-delay: 3
+# Domyslny limit domow. Mozna nadac wiecej permisja sektor.homes.<liczba>
+max-homes: 3
+rtp:
+  radius: 3000
+  cooldown: 60
+afk:
+  # Po ilu sekundach /afk teleportuje na strefe AFK
+  delay: 3
+  # Po ilu sekundach bezczynnosci gracz jest automatycznie wysylany na strefe AFK
+  seconds: 300
+  auto-teleport: true
